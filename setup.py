@@ -27,11 +27,11 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=[
-        "numpy ~= 1.20.3",
-        "pandas ~= 1.2.4",
-        "scikit-learn ~= 0.24.2",
-        "scipy ~= 1.6.3",
-        "tqdm ~= 4.61.0",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "scipy",
+        "tqdm",
     ],
     extras_require={
         "dev": [
